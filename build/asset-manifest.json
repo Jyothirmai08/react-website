@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f1f1c4b8.css",
+    "main.js": "/static/js/main.2ef83e1e.js",
+    "static/media/ese banner-2.png": "/static/media/ese banner-2.6846e7e54e514759becd.png",
+    "static/media/ese banner-4.png": "/static/media/ese banner-4.d6d875c95e0b04ec8c92.png",
+    "static/media/ese banner-3.png": "/static/media/ese banner-3.5de327cf2410be106a3b.png",
+    "static/media/ese banner-1.png": "/static/media/ese banner-1.55d6d8c495dfb4f6aa08.png",
+    "static/media/ese banner-5.png": "/static/media/ese banner-5.e7d188550932a555de4b.png",
+    "static/media/Testseries.png": "/static/media/Testseries.b2a3699172c96041d912.png",
+    "static/media/aboub us.jpg": "/static/media/aboub us.6210c075a89b19d9647a.jpg",
+    "static/media/vision.jpg": "/static/media/vision.d04fd79a8d2dcf74491e.jpg",
+    "static/media/our mission.jpg": "/static/media/our mission.7dcecdabc2552733d81b.jpg",
+    "static/media/logo.png": "/static/media/logo.8288d18cff41d4d2fa5c.png",
+    "static/media/questionbank.jpg": "/static/media/questionbank.49c25552f46d0a152b44.jpg",
+    "static/media/onlinevideos.png": "/static/media/onlinevideos.b82f1bbf491d5d968485.png",
+    "index.html": "/index.html",
+    "main.f1f1c4b8.css.map": "/static/css/main.f1f1c4b8.css.map",
+    "main.2ef83e1e.js.map": "/static/js/main.2ef83e1e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1f1c4b8.css",
+    "static/js/main.2ef83e1e.js"
+  ]
+}
