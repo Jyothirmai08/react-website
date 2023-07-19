@@ -1,0 +1,728 @@
+.head {
+    padding: 20px 0;
+    color: #fff;
+}
+
+.logo img {
+    width: 40%;
+    margin-left: -80px;
+}
+
+.head .icon {
+    margin: auto;
+}
+
+/*-------------- header ------------------*/
+header {
+    background-color: rgb(125, 190, 250);
+    margin: 0 30px;
+}
+
+header ul {
+    padding: 30px 100px;
+}
+
+header li {
+    margin-right: 40px;
+}
+
+header ul li a {
+    color: #000;
+    font-weight: 600;
+    transition: 0.5s;
+    font-size: 1.5rem;
+}
+
+header ul li a:hover {
+    color: #25D366;
+    text-shadow: 2px 2px 0px #000;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.start {
+    background-color: #25D366;
+    padding: 30px 70px;
+    color: #fff;
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+    font-size: 1.5rem;
+    font-weight: 700;
+    transition: 0.7s;
+}
+
+.start:hover {
+    cursor: pointer;
+    color: #fff;
+    text-shadow: 4px 3px 0px #000;
+    font-weight: 700;
+    font-size: 2rem;
+    transition: 0.7s;
+}
+
+.toggle {
+    display: none;
+}
+
+
+/* section div img{
+    width: 100%;
+    height: 100%;
+} */
+
+.aboutus h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.aboutus .f-c {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aboutus .about-big-img {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.aboutus .about-big-img img {
+    width: 80%;
+}
+
+.aboutus .abut-info {
+    width: 40%;
+}
+
+.aboutus .abut-info p {
+    font-family: 'Courgette', cursive;
+    font-size: 1rem;
+    margin: auto;
+}
+
+
+
+.mis-vis {
+
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem auto;
+}
+
+.mis-vis article {
+    border-radius: 18px;
+    width: 35%;
+    background: rgb(125, 190, 250);
+}
+
+.mis-vis article .visionimg {
+    border-radius: 18px 18px 0px 0px;
+}
+
+.mis-vis article .visioncontent {
+    width: 100%;
+    margin: 0rem auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mis-vis article .visionimg img {
+    display: flex;
+    border-radius: 18px 18px 0px 0px;
+    width: 100%;
+}
+
+.mis-vis article .visioncontent h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    background: #dbfff2;
+}
+
+.mis-vis article .visioncontent p {
+    width: 80%;
+    line-height: 150%;
+    letter-spacing: 0.1px;
+    word-spacing: 1px;
+    font-family: 'Courgette', cursive;
+    margin: 0.8rem auto;
+    font-size: 0.8rem;
+}
+
+.exams h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.exams .exambtns{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.exams .examcontent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis:23%;
+    gap: 2.5rem;
+    background: rgb(125, 190, 250);
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
+
+.exams .examcontent .btn1{
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: #000;
+    color: rgb(125, 190, 250);
+    border-radius: 30%;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.exams .examcontent .iitjee_btn button {
+    margin-top: 5rem;
+    padding: 1rem;
+    background-color: #dbfff2;
+    color: #000;
+    border-radius: 1.5rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    transition: 0.7s;
+}
+
+.exams .examcontent .iitjee_btn button:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: rgba(37, 211, 102);
+    text-shadow: 4px 3px 0px #000;
+    font-weight: 700;
+    font-size: 2rem;
+    transition: 0.7s;
+    border-color: #000;
+    border-style: outset;
+    border-width: 0.4rem;
+    border-radius: 3rem;
+}
+
+.exams .singlebtn{
+    margin: 4rem 0 5rem 0;
+    text-align: center;
+}
+
+
+
+/* ---------------------courses css----------------------- */
+
+.courses .coursesdiv .innerdiv{
+    padding: 1.5rem;
+}
+
+.courses .coursesdiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
+.courses h1{
+    margin-top: 4rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.courses .innerdiv{
+    background-color: rgb(125, 190, 250);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.courses .innerdiv h2{
+    text-align: center;
+    font-weight: 700;
+}
+
+/* .courses .course_content{
+    padding: 1rem;
+} */
+
+.courses .coursesdiv .testseries {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+.courses .testseries .testseriesimg{
+    width: 20%;
+}
+.courses .testseries .testseriesimg img{
+    width: 100%;
+    float: right;
+    border-radius: 5rem;
+   
+}
+
+
+
+.courses .course_content h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.courses .course_content p {
+    font-family: 'Courgette', cursive;
+    font-size: 1rem;
+}
+
+.courses .course_btn button{
+    background-color: #fff;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5rem;
+    transition: 1s;
+}
+
+.courses .course_btn button:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: rgba(37, 211, 102);
+    text-shadow: 4px 3px 0px #000;
+    font-weight: 700;
+    font-size: 1.5rem;
+    transition: 0.7s;
+    border-color: #000;
+    border-style: outset;
+    border-width: 0.4rem;
+    border-radius: 3rem;
+}
+
+
+
+
+/* --------------------contact us css----------------- */
+
+
+/* .address{
+    margin-top: 1rem;
+} */
+
+
+.contact h1 {
+    margin-top: 4rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.contact p {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.contact .right {
+    display: flex;
+    gap: 20rem;
+    text-align: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.left div {
+    float: right;
+    padding: 2rem;
+}
+
+
+.content {
+    display: flex;
+    gap: 2rem;
+}
+
+.inputcontent {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.inputcontent .inputs {
+    display: flex;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+
+.inputcontent input {
+    font-family: 'Courgette', cursive;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.inputcontent textarea {
+    padding: 1.5rem;
+    width: 100%;
+    font-family: 'Courgette', cursive;
+}
+
+.btn-primary {
+    width: 100%;
+    margin: 2rem 0 2rem 0;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: #25D366;
+    transition: 1s;
+}
+
+.btn-primary:hover {
+    cursor: pointer;
+    color: #fff;
+    text-shadow: 4px 3px 0px #000;
+    font-weight: 700;
+    font-size: 2rem;
+    border-radius: 50%;
+    width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============== FQAS ==========================
+.faqs {
+    background:#01c3ff;
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+}
+
+.faqs__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.faq {
+    padding:1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    height: fit-content;
+    background:black;
+    color:white;
+    cursor: pointer;
+}
+
+.faq h4 {
+    font-size:13px;
+    line-height:1.5;
+}
+
+.faq__icon {
+    align-self: flex-start;
+    font-size: 1.2rem;
+}
+
+.faq p {
+    margin-top: 0.8rem;
+    display: none;
+    text-align: justify;
+}
+
+.faq.open p {
+    display: block;
+} */
+
+.faqq{
+    padding: 0.8rem 0;
+}
+
+.faqs h2 {
+    color: white;
+}
+
+/* 
+.height{
+    height: 48rem;
+} */
+
+/* .height1{
+    height: 55rem;
+}
+
+.iitjeeheight{
+    height: 65rem;
+} */
+.faqq {
+    background-color: #dbfff2;
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    /* height: 43rem; */
+    height: auto;
+
+}
+
+.main h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper .toggle {
+    gap: 1rem;
+    background: black;
+    color: white;
+    display: flex;
+    font-size: 16PX;
+    font-weight: 500;
+    border: none;
+    align-items: center;
+    justify-content: space-between;
+    outline: none;
+    cursor: pointer;
+    font-family: 'poppins';
+    height: 46px;
+    text-align: justify;
+
+}
+
+.accor {
+    padding-left: 50rem;
+}
+
+.panel {
+    /* margin-top:9px; */
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    color: black;
+    overflow: hidden;
+    margin-left: 40px;
+    transition: max-height 0.2s ease-out;
+    width: 95%;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.wrapper {
+    margin-top: 2rem;
+    background: black;
+    color: white;
+    padding: 15PX 10PX;
+    /* padding: 0.5rem; */
+    border-radius: 2PX;
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+
+}
+
+.contentfaq {
+    position: relative;
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+    height: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    margin-left: 1.9rem;
+    /* background: white; */
+    /* color: black; */
+
+
+}
+
+.content p {
+    margin: 0;
+    padding: 0;
+
+    height: auto;
+}
+
+.contentfaq p {
+    text-align: justify;
+}
+
+@media screen and (max-width:1024px) {
+
+    /* body{
+        display: none;
+    } */
+    .main {
+        display: block;
+
+    }
+
+    /* .container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    
+        height: 80vh;
+        box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+       
+    } */
+    .wrapper {
+        margin-top: 2rem;
+        background: black;
+        color: white;
+        padding: 15PX 40PX;
+        border-radius: 5PX;
+        box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    /* body{
+        display: none;
+    } */
+    .main {
+        display: block;
+
+    }
+
+    /* .container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    
+        height: 68vh;
+        box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+       
+    } */
+    .wrapper {
+        margin-top: 2rem;
+        background: black;
+        color: white;
+        padding: 15PX 40PX;
+        border-radius: 5PX;
+        box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+    }
+
+    .contentfaq {
+        font-size: 12px;
+    }
+
+    .toggle {
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+/* --------------------footer css---------------- */
+
+
+footer {
+    /* background-color: rgb(125, 190, 250); */
+    background-color: #fff;
+}
+
+footer .footer {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer div {
+    margin: 2rem;
+}
+
+.footer img {
+    width: 50%;
+}
+
+.footer .fot1,
+.footer .fot4 {
+    margin-top: 2rem;
+    width: 40%;
+}
+
+
+.footer .fot2,
+.footer .fot3 {
+    margin-top: 2rem;
+    text-align: center;
+    width: 25%;
+}
+
+.copyright {
+    text-align: center;
+    padding: 1rem;
+}
+
+.copyright p {
+    font-size: 1.5rem;
+}
+
+footer p {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+footer ul li {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .start {
+        clip-path: none;
+    }
+
+    header {
+        margin: 0;
+        background-color: #1eb2a6;
+        position: relative;
+    }
+
+    header ul.flexSB {
+        display: none;
+    }
+
+    header ul li {
+        margin-bottom: 20px;
+    }
+
+    .toggle {
+        display: block;
+        background-color: none;
+        color: #fff;
+        font-size: 30px;
+        position: absolute;
+        right: 50px;
+        top: 20px;
+    }
+
+    .mobile-nav {
+        position: absolute;
+        top: 7vh;
+        left: 0;
+        width: 100%;
+        background-color: #1eb2a6;
+    }
+}
