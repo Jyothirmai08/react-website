@@ -81,6 +81,12 @@ const Header = () => {
                     <div>
                         <img src={banner4} alt="" />
                     </div>
+                    <div>
+                        <img src={banner4} alt="" />
+                    </div>
+                    <div>
+                        <img src={banner4} alt="" />
+                    </div>
                 </Carousel>
             </section><br /><br />
 
